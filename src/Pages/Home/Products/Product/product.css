@@ -1,0 +1,8 @@
+.card-btn {
+    background-color: #0b1842;
+    border-radius: 20px;
+}
+
+.card-btn:hover {
+    background-color: brown;
+}

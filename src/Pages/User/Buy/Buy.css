@@ -1,0 +1,32 @@
+.form-section {
+
+    box-shadow: 3px 5px 7px 6px gray;
+}
+
+.booking-form input {
+    margin-bottom: 34px;
+    width: 400px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+.sub-btn {
+    background-color: #052046;
+}
+
+.sub-btn value:hover {
+    color: #D14141;
+}
+
+/* responsive for phone  */
+@media screen and (max-width: 668px) {
+    .spot-img {
+        height: 300px;
+    }
+
+    .booking-form input {
+        margin-bottom: 20px;
+    }
+}

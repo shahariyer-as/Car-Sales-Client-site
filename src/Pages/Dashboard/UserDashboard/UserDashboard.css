@@ -1,0 +1,27 @@
+.side-bar {
+    background-color: #052046;
+
+}
+
+.d-btn {
+    background-color: rgb(180, 11, 110);
+    border-radius: 9px;
+    color: white;
+
+}
+
+.admin-btn {
+    border-radius: 10px;
+    border: 8px;
+    background-color: chartreuse;
+    color: rgb(19, 15, 2);
+}
+
+
+.d-btn:hover {
+    background-color: rgb(179, 194, 44);
+}
+
+.admin-btn:hover {
+    background-color: rgb(241, 236, 236);
+}
