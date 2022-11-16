@@ -1,12 +1,10 @@
+import Button from "@restart/ui/esm/Button";
 import React, { useEffect, useState } from "react";
-import { Row } from "react-bootstrap";
+import { Card, Col, Nav, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Footer from "../../Shared/Footer/Footer";
-import Navigation from "../../Shared/Navigation/Navigation";
 import Banner from "../Banner/Banner";
 import Services from "../Services/Services";
-import { Card, Col, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import Button from "@restart/ui/esm/Button";
 import ShowReviews from "../ShowReviews/ShowReviews";
 
 const Home = () => {
@@ -22,7 +20,6 @@ const Home = () => {
   }, []);
   return (
     <div>
-      <Navigation></Navigation>
       <Banner></Banner>
       <Services></Services>
       <div>
@@ -66,7 +63,7 @@ const Home = () => {
         </div>
       </div>
       <ShowReviews></ShowReviews>
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 };

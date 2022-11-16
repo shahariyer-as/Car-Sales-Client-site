@@ -1,22 +1,22 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import './App.css';
-import AuthProvider from './Context/AuthProvider/AuthProvider';
-import AdminDashboard from './Pages/Dashboard/AdminDashboard/AdminDashboard';
-import UserDashboard from './Pages/Dashboard/UserDashboard/UserDashboard';
-import Home from './Pages/Home/Home/Home';
-import Products from './Pages/Home/Products/Products/Products';
-import Login from './Pages/Login/Login/Login';
-import PrivateRoute from './Pages/Login/PrivetRoute/PrivateRoute';
-import Register from './Pages/Login/Register/Register';
-import Buy from './Pages/User/Buy/Buy';
-
-
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import "./App.css";
+import AuthProvider from "./Context/AuthProvider/AuthProvider";
+import AdminDashboard from "./Pages/Dashboard/AdminDashboard/AdminDashboard";
+import UserDashboard from "./Pages/Dashboard/UserDashboard/UserDashboard";
+import Home from "./Pages/Home/Home/Home";
+import Products from "./Pages/Home/Products/Products/Products";
+import Login from "./Pages/Login/Login/Login";
+import PrivateRoute from "./Pages/Login/PrivetRoute/PrivateRoute";
+import Register from "./Pages/Login/Register/Register";
+import NavBar from "./Pages/Shared/Navigation/NavBar";
+import Buy from "./Pages/User/Buy/Buy";
 
 function App() {
   return (
     <div className="App">
       <AuthProvider>
         <BrowserRouter>
+          <NavBar />
           <Switch>
             <PrivateRoute path="/adminDashboard">
               <AdminDashboard></AdminDashboard>

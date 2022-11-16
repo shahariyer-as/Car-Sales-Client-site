@@ -2,12 +2,13 @@ import React from "react";
 import { Container, Nav, Navbar, NavDropdown, Row } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import useAuth from "../../../Hooks/useAuth";
+import "./NavBar.css";
 
 const activeLink = {
   borderBottom: "1px solid #162F62",
   color: "white",
 };
-const Navigation = () => {
+const NavBar = () => {
   const { user, logOut } = useAuth();
 
   return (
@@ -75,7 +76,7 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default NavBar;
 
 // -------------------new style --------------
 

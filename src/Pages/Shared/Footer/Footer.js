@@ -1,43 +1,27 @@
-// import {
-//   faEnvelope,
-//   faMapMarker,
-//   faPhone,
-// } from "@fortawesome/free-solid-svg-icons";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-// import "./Footer.css";
 
 const Footer = () => {
-  //   const addIcon = <FontAwesomeIcon icon={faMapMarker} />;
-  //   const envIcon = <FontAwesomeIcon icon={faEnvelope} />;
-  //   const phnIcon = <FontAwesomeIcon icon={faPhone} />;
   return (
     <div className="">
-      {/* <!-- Remove the container if you want to extend the Footer to full width. --> */}
       <div class=" my-5">
         <footer
           class="text-white text-center text-lg-start"
           style={{ backgroundColor: "#23242a" }}
         >
-          {/* <!-- Grid container --> */}
           <div class="container p-4">
-            {/* <!--Grid row--> */}
             <div class="row mt-4">
               {/* <!--Grid column--> */}
               <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
                 <h5 class="text-uppercase mb-4">About company</h5>
 
                 <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque corrupti.
+                  We buy and sale barand new car and also used car of any brand.
+                  Find cars for sale, local dealers, and advice.
                 </p>
 
-                <p>
-                  Blanditiis praesentium voluptatum deleniti atque corrupti quos
-                  dolores et quas molestias.
-                </p>
+                <p>Our servicing is very also get joibs good we try to best.</p>
 
-                <div class="mt-4">
+                <div class="mt-5">
                   {/* <!-- Facebook --> */}
                   <li type="button" class="btn btn-floating btn-warning btn-lg">
                     <i class="fab fa-facebook-f"></i>
@@ -94,13 +78,13 @@ const Footer = () => {
                     <span class="fa-li">
                       <i class="fas fa-home"></i>
                     </span>
-                    <span class="ms-2">New York, NY 10012, US</span>
+                    <span class="ms-2"> B-11, Dhaka , Bangladesh</span>
                   </li>
                   <li class="mb-3">
                     <span class="fa-li">
                       <i class="fas fa-envelope"></i>
                     </span>
-                    <span class="ms-2">info@example.com</span>
+                    <span class="ms-2">shahriyer@info.com</span>
                   </li>
                   <li class="mb-3">
                     <span class="fa-li">
