@@ -14,7 +14,7 @@ const Review = () => {
   } = useForm();
   const onSubmit = (data) => {
     console.log("comment", data);
-    fetch("https://glacial-escarpment-59764.herokuapp.com/addReviews", {
+    fetch("https://car-sales-server-site.vercel.app/addReviews", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),

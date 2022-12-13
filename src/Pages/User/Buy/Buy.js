@@ -27,7 +27,7 @@ const Buy = () => {
     bookingDetails.status = "Pending";
     // console.log(data)
 
-    fetch("https://glacial-escarpment-59764.herokuapp.com/buy", {
+    fetch("https://car-sales-server-site.vercel.app/buy", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -46,7 +46,7 @@ const Buy = () => {
 
   const getSinglePlan = () => {
     axios
-      .get(`https://glacial-escarpment-59764.herokuapp.com/buying/${buyId}`)
+      .get(`https://car-sales-server-site.vercel.app/buying/${buyId}`)
       .then((res) => {
         const myPlans = res.data;
         setSinglePlan(myPlans);

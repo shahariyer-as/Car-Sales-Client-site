@@ -11,7 +11,7 @@ const Home = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("https://glacial-escarpment-59764.herokuapp.com/products")
+    fetch("https://car-sales-server-site.vercel.app/products")
       .then((res) => res.json())
       .then((data) => {
         const slicedData = data.slice(0, 6);
